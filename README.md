@@ -8,13 +8,15 @@ Antes de ejecutar el bot, asegúrate de seguir estos pasos de configuración:
 
 1. Instala las dependencias:
 
-   ```bash
+   ```
    pip install praw
-
+   ```
+   
 Asegúrate de tener el archivo requirements.txt en tu proyecto y ejecuta:
 
-    ```bash
-    pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
 
 Crea una aplicación en Reddit Developer para obtener las credenciales (cliente_id, cliente_secreto, usuario_agente, nombre_de_usuario y contraseña).
 
@@ -26,18 +28,19 @@ Este módulo busca palabras clave en los títulos de las publicaciones y respond
 Uso:
 Ejecuta el script:
 
-    ```bash
-    python respuesta_post.py
+   ```
+   python respuesta_post.py
+   ```
 
 ## marvin.py
-Este módulo busca palabras clave en los comentarios de las publicaciones y responde con comentarios aleatorios. También almacena los IDs de los comentarios para evitar respuestas duplicadas.
+Este módulo busca palabras clave en los comentarios de las publicaciones y responde con comentarios aleatorios.
 
 Uso:
 Ejecuta el script:
 
-    ```bash
-    python marvin.py
-
+   ```
+   python marvin.py
+   ```
 
 # Notas:
 
